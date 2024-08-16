@@ -123,6 +123,7 @@ img{
     }
     .close{
         background-color: black;
+        margin-left: 20px;
     }
     .mobilenavbar{
         display: flex;
@@ -152,8 +153,10 @@ img{
         justify-content: space-between;
     }
     .cards{
+        margin-left: 10px;
+        margin-right: 10px;
         height: 100%;
-        width: 40%;
+        width: 50%;
         background-color: #191919;
         display: flex;
         align-items: center;
@@ -164,7 +167,9 @@ img{
         height: 250px;
         position: absolute;
         top: 180px;
-        width: 100%;
+        width: 90%;
+        margin-left: 5%;
+        padding-left: 10px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
