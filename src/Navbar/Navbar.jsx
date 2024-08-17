@@ -33,14 +33,14 @@ export default function Navbar(){
             </div>
             <div className="searchCart">
                 <button className='search'><i class="fa-solid fa-magnifying-glass"></i></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <button className='cart'><i class="fa-solid fa-cart-shopping"></i></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <div className='byob'>My Account</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button className='cart'><a href="https://beardo-login.vercel.app/" className='disableanchor'><i class="fa-solid fa-cart-shopping"></i></a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div className='byob'><a href="https://beardo-login.vercel.app/" className='disableanchor'>My Account</a></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <div className="mobilenavbar">
                     <button onClick={putnavbar}><i class="fa-solid fa-bars"></i></button>
                     <div className='mobilenavContainer' ref={ref}>
                         <div className="close"><button onClick={removenavbar} className="close"><i class="fa-solid fa-xmark"></i>CLOSE</button></div><br></br>
                         <div className="mobilenavfirstrow">
-                            <div className="cards">My Account<br></br>Login/SignUp</div>
+                            <div className="cards"><a href="https://beardo-login.vercel.app/" className='disableanchor'>My Account</a><br></br><a href="https://beardo-login.vercel.app/" className='disableanchor'>Login/SignUp</a></div>
                             <div className="cards">Track Order</div>
                         </div>
                         <div className="mobilenavsecondrow">

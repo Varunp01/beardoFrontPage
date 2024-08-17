@@ -82,6 +82,7 @@ img{
     &:hover{
         font-size: 28px;
     }
+    
 }
 .byob{
     background-color: #191919;
@@ -101,6 +102,9 @@ img{
     /* width: 15%; */
     justify-content: space-around;
     /* margin-left: 150px; */
+}
+.disableanchor{
+    all: unset;
 }
 .mobilenavbar{
     display: none;
