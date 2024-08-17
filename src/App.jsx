@@ -6,6 +6,7 @@ import Products from './Products/Products'
 import Trending from './Trending/Trending'
 import Timer from './Timer/Timer'
 import Footer from './Footer/Footer'
+import Links from './Links/Links'
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
     <Products></Products>
     <Trending></Trending>
     <Timer></Timer>
+    <Links></Links>
     <Footer></Footer>
     </>
   )
