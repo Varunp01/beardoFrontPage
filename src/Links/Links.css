@@ -17,6 +17,9 @@
         color: white;
     }
 }
+.hello{
+    font-size: 20px;
+}
 .hello i{
     font-size: 30px;
     color: white;
@@ -42,6 +45,7 @@
         background-color: transparent;
         color: white;
         border: none;
+        font-size: 15px;
     }
     .hello select option{
         background-color: transparent;
