@@ -40,7 +40,7 @@ export default function Navbar(){
                     <div className='mobilenavContainer' ref={ref}>
                         <div className="close"><button onClick={removenavbar} className="close"><i class="fa-solid fa-xmark"></i>CLOSE</button></div><br></br>
                         <div className="mobilenavfirstrow">
-                            <div className="cards"><a href="https://beardo-login.vercel.app/" className='disableanchor'>My Account</a><br></br><a href="https://beardo-login.vercel.app/" className='disableanchor'>Login/SignUp</a></div>
+                            <div className="cards"><a href="https://beardo-login.vercel.app/" className='disableanchor'>My Account<br></br>Login/SignUp</a></div>
                             <div className="cards">Track Order</div>
                         </div>
                         <div className="mobilenavsecondrow">
